@@ -13,10 +13,6 @@ library(wordcloud2)
 
 #Create twitter token
 #replace with your values
-create_token(
-  app = "PLACE YOUR APP NAME HERE",
-  consumer_key = "PLACE YOUR CONSUMER KEY HERE",
-  consumer_secret = "PLACE YOUR CONSUMER SECRET HERE")
 
 ############# Handmaiden's Tale Tweets #############
 
@@ -58,3 +54,4 @@ hmtTable <-hmtTable %>%
 
 #wordcloud2
 wordcloud2(hmtTable, backgroundColor = "black", color = "random-light")
+
